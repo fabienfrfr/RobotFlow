@@ -10,7 +10,6 @@ This project aims to control multiple robotic arms using artificial intelligence
 
 - **HuggingFace LeRobot**: AI model for controlling robotic arms.
 - **Kubernetes**: Container orchestration for deploying and managing microservices.
-- **IoT**: Communication with robotic devices.
 - **Postgres**: Relational database for data storage.
 - **MinIO**: S3-compatible object storage for large data.
 - **Apache Kafka and Flink**: Real-time data stream processing.
@@ -105,9 +104,6 @@ sudo apt update
 sudo apt install minikube
 minikube start
 ```
-
-### IoT
-Ensure your IoT devices are configured to communicate with the system.
 
 ### Postgres
 Install PostgreSQL:
