@@ -18,8 +18,6 @@ This project aims to control multiple robotic arms using artificial intelligence
 - **FastAPI**: Framework for creating fast and efficient APIs.
 - **Pulumi**: Infrastructure as Code for cloud resource provisioning.
 - **Gitlab CI**: Continuous integration for automating tests and deployments.
-- **Jira**: Task tracking and project management.
-- **PowerBI**: Data visualization and dashboard creation.
 - **React**: JavaScript library for building dynamic user interfaces.
 
 ## Project Structure
@@ -172,12 +170,6 @@ curl -fsSL https://get.pulumi.com | sh
 
 ### Gitlab CI
 Configure GitLab CI with the gitlab-ci.yml file.
-
-### Jira
-Set up Jira for project management and task tracking.
-
-### PowerBI
-Install PowerBI Desktop for data visualization.
 
 ### React
 Install Create React App:
