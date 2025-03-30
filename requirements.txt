@@ -1,1 +1,15 @@
-# Empty file created for structure
+fastapi
+uvicorn
+pytest
+pylint
+pandera
+sqlalchemy
+pydantic
+psycopg2-binary
+kafka-python
+minio
+mlflow
+pulumi
+transformers
+datasets
+torch

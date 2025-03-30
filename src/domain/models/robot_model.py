@@ -1,1 +1,7 @@
-# Empty file created for structure
+from pydantic import BaseModel
+
+class Robot(BaseModel):
+    id: int
+    name: str
+    status: str
+
