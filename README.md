@@ -19,6 +19,53 @@ This project aims to control multiple robotic arms using artificial intelligence
 - **Gitlab CI**: Continuous integration for automating tests and deployments.
 - **React**: JavaScript library for building dynamic user interfaces.
 
+## Project Structure
+
+Here is a typical project structure for a production-ready project using DDD and TDD:
+
+```
+├── /src
+│   ├── /domain
+│   │   ├── /models
+│   │   ├── /services
+│   │   └── /repositories
+│   │
+│   ├── /application
+│   │   ├── /use_cases
+│   │   └── /interfaces
+│   │
+│   ├── /infrastructure
+│   │   ├── /persistence
+│   │   ├── /messaging
+│   │   └── /storage
+│   │
+│   ├── /interfaces
+│   │   ├── /api
+│   │   └── /web
+│   │
+│   └── /shared
+│       ├── /config
+│       └── /utils
+│
+├── /tests
+│   ├── /unit
+│   ├── /integration
+│   └── /e2e
+│
+├── /deployment
+│   ├── /kubernetes
+│   └── /pulumi
+│
+├── /docs
+│   └── README.md
+│
+├── /ci
+│   └── gitlab-ci.yml
+│
+├── requirements.txt
+└── Dockerfile
+```
+
 ## Installation Instructions
 
 ### HuggingFace LeRobot
