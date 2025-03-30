@@ -21,7 +21,7 @@ This project aims to control multiple robotic arms using artificial intelligence
 
 ## Project Structure
 
-Here is a typical project structure for a production-ready project using DDD and TDD:
+Here is a typical project structure for a production-ready project using BDD, DDD and TDD:
 
 ```
 ├── /src
@@ -56,7 +56,16 @@ Here is a typical project structure for a production-ready project using DDD and
 │   ├── /kubernetes
 │   └── /pulumi
 │
-├── /docs
+├── /features                   # BDD in Gherkin
+│   ├── user_signup.feature
+│   └── order_management.feature
+│
+├── /step_definitions           # BDD (code)
+│   └── user_steps.py 
+│
+├── /docs       
+│   ├── glossary.md 
+│   └── architecture.md 
 │   └── README.md
 │
 ├── /ci
